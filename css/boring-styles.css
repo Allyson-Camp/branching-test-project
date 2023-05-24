@@ -1,0 +1,18 @@
+h2.intro {
+  color: rgb(206, 166, 243);
+}
+
+p.intro {
+  font-family: sans-serif;
+}
+
+img.intro {
+  width: 100%;
+}
+
+#super-boring {
+  font-size: 90px;
+  color: rgb(79, 57, 100);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+}
