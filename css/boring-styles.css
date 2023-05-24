@@ -1,18 +1,33 @@
-h2.intro {
-  color: rgb(206, 166, 243);
+div {
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-p.intro {
-  font-family: sans-serif;
+.intro {
+    width: 100%;
 }
 
-img.intro {
-  width: 100%;
+.paragraphs p {
+    width: 50%;
+    float: left;
+}
+
+.intro h2 {
+    color: rgb(206, 166, 243);
+}
+
+.intro p {
+    font-family: sans-serif;
+}
+
+.intro img {
+    width: 100%;
 }
 
 #super-boring {
-  font-size: 90px;
-  color: rgb(79, 57, 100);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-transform: uppercase;
+    font-size: 90px;
+    color: rgb(79, 57, 100);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-transform: uppercase;
 }
