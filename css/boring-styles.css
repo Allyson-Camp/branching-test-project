@@ -2,6 +2,7 @@ div {
     width: 95%;
     max-width: 600px;
     margin: 0 auto;
+    clear: both;
 }
 
 .intro {
@@ -30,4 +31,8 @@ div {
     color: rgb(79, 57, 100);
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-transform: uppercase;
+}
+
+.no-float {
+    clear: left;
 }
