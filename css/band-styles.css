@@ -1,6 +1,10 @@
 .sidebar {
     width: 50%;
     float: left;
+    border: 10px solid rgb(248, 183, 170);
+    border-radius: 100px 25px;
+    box-sizing: border-box;
+    background-color: rgb(231, 253, 233);
 }
 
 .images {
@@ -9,11 +13,22 @@
     opacity: 0.6;
 }
 
+.images img {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    border: 5px groove black;
+    border-radius: 10px;
+    
+}
+
 .sidebar p {
     width: 100vw;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-align: center;
     font-size: 128px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h1 {
